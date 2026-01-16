@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class demo {
+public class Iterator {
     
     public static void main(String[] args) {
         ArrayList<Integer> List = new ArrayList<>();
