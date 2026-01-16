@@ -1,6 +1,8 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
-public class Iterator {
+public class IteratorDemo {
+    
     
     public static void main(String[] args) {
         ArrayList<Integer> List = new ArrayList<>();
@@ -19,7 +21,20 @@ public class Iterator {
         {
             System.out.println("The Elements are "+List.get(i));
         }
+        System.out.println("***********");
+        
+        for(Integer element: List)
+            {
+                System.out.println("The Elements are "+element);
+            }
+         System.out.println("***********");
+        
+        Iterator<Integer> it = List.iterator();
 
+        while (it.hasNext()) {
+            System.out.println("iterator "+it.next());
+            
+        }
     }
 }
 
