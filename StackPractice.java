@@ -49,7 +49,5 @@ public class StackPractice {
 
         animal.empty(); // empty()
         System.out.println("Is stack empty now? " + animal.empty());
-
-        System.out.println("Changed");
     }
 }
