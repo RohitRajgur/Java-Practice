@@ -21,13 +21,15 @@ public class IteratorDemo {
         {
             System.out.println("The Elements are "+List.get(i));
         }
+        
         System.out.println("***********");
         
         for(Integer element: List)
             {
                 System.out.println("The Elements are "+element);
             }
-         System.out.println("***********");
+
+        System.out.println("***********");
         
         Iterator<Integer> it = List.iterator();
 
