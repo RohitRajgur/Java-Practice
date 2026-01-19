@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Java Collection Framework Quick Reference
+=======
+Java Collection Framework – Quick Reference
+>>>>>>> collection-framework
 
 ArrayList
 ArrayList is a resizable array implementation of List. It allows duplicate elements and maintains
