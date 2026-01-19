@@ -1,0 +1,86 @@
+Java Collection Framework – Quick Reference
+
+ArrayList
+ArrayList is a resizable array implementation of List. It allows duplicate elements and maintains
+insertion order. It provides fast random access using index.
+• add(e): adds element to list
+• add(i,e): adds element at index
+• get(i): retrieves element by index
+• set(i,e): updates element at index
+• remove(i/e): removes element
+• contains(e): checks presence
+• size(): returns number of elements
+• clear(): removes all elements
+
+LinkedList
+LinkedList is a doubly linked list implementation of List and Deque. It allows duplicates and
+maintains insertion order. It is efficient for insertion and deletion.
+• add(e): adds element
+• addFirst()/addLast(): insert at ends
+• getFirst()/getLast(): retrieve ends
+• removeFirst()/removeLast(): delete ends
+• size(): count elements
+• clear(): remove all
+
+Stack
+Stack represents LIFO (Last In First Out) data structure. It extends Vector and is used when last
+inserted element must be accessed first.
+• push(e): inserts element
+• pop(): removes top element
+• peek(): views top element
+• search(e): position from top
+• empty(): checks if stack is empty
+
+HashSet
+HashSet stores unique elements and does not maintain insertion order. It provides fast search
+operations using hashing.
+• add(e): inserts element
+• remove(e): deletes element
+• contains(e): checks existence
+• size(): number of elements
+• clear(): removes all
+
+LinkedHashSet
+LinkedHashSet stores unique elements and maintains insertion order. It combines HashSet
+performance with predictable iteration order.
+• add(e): inserts element
+• remove(e): deletes element
+• contains(e): checks existence
+• size(): number of elements
+• clear(): removes all
+
+TreeSet
+TreeSet stores unique elements in sorted order. It uses a Red-Black tree and does not allow null
+elements.
+• add(e): inserts element
+• first(): smallest element
+• last(): largest element
+• remove(e): deletes element
+• clear(): removes all
+
+Queue (PriorityQueue)
+PriorityQueue is a queue where elements are processed based on priority. By default, it follows
+natural ordering.
+• add(e): inserts element
+• peek(): retrieves head
+• poll(): removes head
+• remove(): deletes head
+• clear(): removes all
+
+Iterator
+Iterator is used to traverse collection elements safely. It allows element removal during iteration.
+• hasNext(): checks next element
+• next(): returns next element
+• remove(): removes current element
+
+HashMap
+HashMap stores data in key-value pairs. It does not maintain order and allows one null key and
+multiple null values.
+• put(k,v): inserts key-value
+• get(k): retrieves value
+• remove(k): deletes entry
+• containsKey(k): checks key
+• containsValue(v): checks value
+• keySet(): returns all keys
+• values(): returns all values
+• clear(): removes all entries
